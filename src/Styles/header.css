@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  /* color: rgb(214, 214, 214); */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-item:not(:last-child) {
+  margin-right: 2rem;
+}
+.nav-link {
+  text-decoration: none;
+}
+.sidebar_time {
+  min-width: 6rem;
+}
